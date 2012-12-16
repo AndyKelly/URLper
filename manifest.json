@@ -1,15 +1,20 @@
 {
-  "name": "Urlper",
-  "version": "1.0",
-  "description": "a quick and dirty bookmark manager",
-  "permissions": [
-    "bookmarks", "tabs"
-  ],
-  "browser_action": {
-      "default_title": "Urlper.",
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
-  },
-  "manifest_version": 2,
-  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+	"name": "URLper",
+	"version": "1.0",
+	"description": "URLper is bookmarks manager for bookmarks you dont want hanging around forever",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"permissions": [
+		"bookmarks", "tabs"
+	],
+	"browser_action": {
+		"default_title": "URLper",
+		"default_popup": "popup.html",
+		"default_icon": "icon.png"
+	},
+	"manifest_version": 2,
+	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
 }
