@@ -1,0 +1,207 @@
+a:link {color:#333333;}      /* unvisited link */
+a:visited {color:#333333;}  /* visited link */
+a:hover {color:#333333;}  /* mouse over link */
+a:active {color:#333333;}  /* selected link */
+
+BigBold
+{
+	font-family: 'Lobster', cursive;
+	font-weight: 350;
+	font-size: 40;
+	color:#333333;
+}
+
+Normal 
+{ 
+	font-family:'Ubuntu', sans-serif;
+	font-weight: 350;
+	font-size: 15;	
+	color: #333333;
+}
+
+body 
+{
+	background-color:#f9f9f9;
+	min-width:357px;
+}
+
+div.BookMarkRed 
+{
+	margin-top:-15px;
+	border:1px solid white;
+	vertical-align:left;
+	background-color:#ffc3e6;
+	width:350px;
+	height:25px;
+}
+
+div.BookMarkGreen 
+{
+	margin-top:-15px;
+	border:1px solid white;
+	vertical-align:left;
+	background-color:#d5f498;
+	width:350px;
+	height:25px;
+}
+
+div.BookMarkOrange 
+{
+	margin-top:-15px;
+	border:1px solid white;
+	vertical-align:left;
+	background-color:#ffd89a;
+	width:350px;
+	height:25px;
+}
+
+div.BookMarkBlue 
+{
+	margin-top:-15px;
+	border:1px solid white;
+	vertical-align:left;
+	background-color:#b6e7fb;
+	width:350px;
+	height:25px;
+}
+
+div.BookMarkText
+{
+	margin-top:5;
+	margin-bottom:5;
+	margin-left:7px;
+	float:left;
+	cursor: pointer;
+}
+
+div.Favicon
+{
+	margin-top:5;
+	margin-bottom:5;
+	margin-right:7px;
+	float:right;
+	cursor: pointer;
+	-webkit-user-select: none; 
+}
+
+div.DeleteIcon
+{
+	margin-top:5;
+	margin-bottom:5;
+	margin-right:7px;
+	float:right;
+	cursor: pointer;
+	-webkit-user-select: none; 
+}
+ 
+div.Button
+{
+	background-color:#85a6a5;
+	float:left;
+	vertical-align:middle;
+	border:1px solid white;
+	width:200px;
+	height:52px;
+	-webkit-user-select: none; 
+	cursor: pointer;
+}
+
+div.Title
+{
+	float:left;
+}
+
+div.topbar
+{
+	-webkit-user-select: none; 
+	background-color:#f9f9f9;
+	float:left;
+	vertical-align:middle;
+	width:550px;
+	height:85px;
+}
+
+div.Categories
+{
+	float:left;
+}
+
+div.RedSquare 
+{
+	margin-top:20;
+	margin-left:10;
+	background-color:#ff0097;
+	vertical-align:left;
+	float:right;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+}
+
+div.BlueSquare 
+{
+	margin-top:20;
+	margin-left:10;
+	background-color:#00B4FF;
+	vertical-align:left;
+	float:right;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+}
+
+div.GreenSquare 
+{
+	margin-top:20;
+	margin-left:10;
+	background-color:#8CBF26;
+	vertical-align:left;
+	float:right;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+}
+
+div.OrangeSquare 
+{
+	margin-top:20;
+	margin-left:10;
+	background-color:#f09609;
+	vertical-align:left;
+	float:right;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+}
+
+div.RightPane
+{
+	float:right;
+	vertical-align:middle;
+	width:348px;
+	height:205px;
+}
+  
+div.LeftPane
+ {
+	background-color:#f9f9f9;
+	float:left;
+	vertical-align:middle;
+	width:200px;
+	height:205px;
+ }
+  
+div.ContentPane
+{
+	background-color:#f9f9f9;
+	float:left;
+	vertical-align:middle;
+	width:550px;
+}
+
+div.AppPane
+{
+	float:left;
+	vertical-align:middle;
+	width:551px;
+}
