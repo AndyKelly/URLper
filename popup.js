@@ -98,7 +98,6 @@ var Timer;
 				RedID = bookmark.id;
 				//By default we display the red category, the folder has been found so we can now display it.
 				SelectedCategoryID = RedID;
-				ConstructBookmarks();
 			}
 			else if(bookmark.title =="Urlper Green")
 			{
